@@ -1,0 +1,16 @@
+###########m=1################
+compression ratio = 64
+psnr=19.8635
+###########m=2################
+compression ratio = 16
+psnr=21.9069
+###########m=3################
+compression ratio = 7.1111
+psnr= 23.7734
+###########m=4################
+compression ratio = 4
+psnr=25.9427
+##############################
+why DCT ?!
+1-DCT works with real part (depend on cosin function only) of transformaition while DFT works with the complex numbers which affects the preformance of the algorithm
+2-DCT assumes better periodicity which is continuous and it's better in the images while DFT assumes discontinuity.
